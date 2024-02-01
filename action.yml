@@ -1,0 +1,12 @@
+name: 'Check Codewars Kata'
+description: 'Check if Kata is completed on a user account'
+inputs:
+  kata-id:  # id of input
+    description: 'The ID of the Kata'
+    required: true
+outputs:
+  is-completed: # id of output
+    description: 'Whether or not the user complete the Kata'
+runs:
+  using: 'node20'
+  main: 'dist/index.js'
